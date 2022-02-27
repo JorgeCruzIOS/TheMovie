@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70E39C0F27CA9510006CF292 /* SDKGServicesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E39C0E27CA9510006CF292 /* SDKGServicesManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70E39C5D27CA9731006CF292 /* ServicesFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C5C27CA9731006CF292 /* ServicesFacade.swift */; };
+		70E39C6127CA973E006CF292 /* BaseResponse400.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C5E27CA973E006CF292 /* BaseResponse400.swift */; };
+		70E39C6227CA973E006CF292 /* BaseRequestEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C5F27CA973E006CF292 /* BaseRequestEmpty.swift */; };
+		70E39C6327CA973E006CF292 /* BaseResponse200.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C6027CA973E006CF292 /* BaseResponse200.swift */; };
+		70E39C7927CA9905006CF292 /* SDKGCommonUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70E39C7527CA98BF006CF292 /* SDKGCommonUtils.framework */; };
+		70E39C8827CA9D58006CF292 /* ListVideoMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C8027CA9D58006CF292 /* ListVideoMovieResponse.swift */; };
+		70E39C8927CA9D58006CF292 /* ListVideoMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C8127CA9D58006CF292 /* ListVideoMovieService.swift */; };
+		70E39C8A27CA9D58006CF292 /* DetailMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C8327CA9D58006CF292 /* DetailMovieService.swift */; };
+		70E39C8B27CA9D58006CF292 /* DetailMovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C8427CA9D58006CF292 /* DetailMovieResponse.swift */; };
+		70E39C8C27CA9D58006CF292 /* ListMoviesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C8627CA9D58006CF292 /* ListMoviesService.swift */; };
+		70E39C8D27CA9D58006CF292 /* ListMoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E39C8727CA9D58006CF292 /* ListMoviesResponse.swift */; };
+		9CA1A15A9186D071606D34F3 /* Pods_SDKGServicesManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A04C84CF154CB8E105D84D1 /* Pods_SDKGServicesManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A04C84CF154CB8E105D84D1 /* Pods_SDKGServicesManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDKGServicesManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E39C0B27CA9510006CF292 /* SDKGServicesManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKGServicesManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E39C0E27CA9510006CF292 /* SDKGServicesManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKGServicesManager.h; sourceTree = "<group>"; };
+		70E39C5C27CA9731006CF292 /* ServicesFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesFacade.swift; sourceTree = "<group>"; };
+		70E39C5E27CA973E006CF292 /* BaseResponse400.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse400.swift; sourceTree = "<group>"; };
+		70E39C5F27CA973E006CF292 /* BaseRequestEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequestEmpty.swift; sourceTree = "<group>"; };
+		70E39C6027CA973E006CF292 /* BaseResponse200.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse200.swift; sourceTree = "<group>"; };
+		70E39C7527CA98BF006CF292 /* SDKGCommonUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDKGCommonUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E39C8027CA9D58006CF292 /* ListVideoMovieResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVideoMovieResponse.swift; sourceTree = "<group>"; };
+		70E39C8127CA9D58006CF292 /* ListVideoMovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListVideoMovieService.swift; sourceTree = "<group>"; };
+		70E39C8327CA9D58006CF292 /* DetailMovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMovieService.swift; sourceTree = "<group>"; };
+		70E39C8427CA9D58006CF292 /* DetailMovieResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMovieResponse.swift; sourceTree = "<group>"; };
+		70E39C8627CA9D58006CF292 /* ListMoviesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMoviesService.swift; sourceTree = "<group>"; };
+		70E39C8727CA9D58006CF292 /* ListMoviesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMoviesResponse.swift; sourceTree = "<group>"; };
+		7B0F14F01A5FA730650B98C2 /* Pods-SDKGServicesManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKGServicesManager.release.xcconfig"; path = "Target Support Files/Pods-SDKGServicesManager/Pods-SDKGServicesManager.release.xcconfig"; sourceTree = "<group>"; };
+		8E1CA6742376DCC7C8C092C2 /* Pods-SDKGServicesManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKGServicesManager.debug.xcconfig"; path = "Target Support Files/Pods-SDKGServicesManager/Pods-SDKGServicesManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70E39C0827CA9510006CF292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E39C7927CA9905006CF292 /* SDKGCommonUtils.framework in Frameworks */,
+				9CA1A15A9186D071606D34F3 /* Pods_SDKGServicesManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70E39C0127CA9510006CF292 = {
+			isa = PBXGroup;
+			children = (
+				70E39C0D27CA9510006CF292 /* SDKGServicesManager */,
+				70E39C0C27CA9510006CF292 /* Products */,
+				F11D889546F737540BEE7641 /* Pods */,
+				FAB3AD3E9A7558F20F0DCFE8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		70E39C0C27CA9510006CF292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70E39C0B27CA9510006CF292 /* SDKGServicesManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70E39C0D27CA9510006CF292 /* SDKGServicesManager */ = {
+			isa = PBXGroup;
+			children = (
+				70E39C8527CA9D58006CF292 /* ListMovies */,
+				70E39C8227CA9D58006CF292 /* DetailMovie */,
+				70E39C7F27CA9D58006CF292 /* ListVideoMovie */,
+				70E39C5C27CA9731006CF292 /* ServicesFacade.swift */,
+				70E39C5F27CA973E006CF292 /* BaseRequestEmpty.swift */,
+				70E39C6027CA973E006CF292 /* BaseResponse200.swift */,
+				70E39C5E27CA973E006CF292 /* BaseResponse400.swift */,
+				70E39C0E27CA9510006CF292 /* SDKGServicesManager.h */,
+			);
+			path = SDKGServicesManager;
+			sourceTree = "<group>";
+		};
+		70E39C7F27CA9D58006CF292 /* ListVideoMovie */ = {
+			isa = PBXGroup;
+			children = (
+				70E39C8127CA9D58006CF292 /* ListVideoMovieService.swift */,
+				70E39C8027CA9D58006CF292 /* ListVideoMovieResponse.swift */,
+			);
+			path = ListVideoMovie;
+			sourceTree = "<group>";
+		};
+		70E39C8227CA9D58006CF292 /* DetailMovie */ = {
+			isa = PBXGroup;
+			children = (
+				70E39C8327CA9D58006CF292 /* DetailMovieService.swift */,
+				70E39C8427CA9D58006CF292 /* DetailMovieResponse.swift */,
+			);
+			path = DetailMovie;
+			sourceTree = "<group>";
+		};
+		70E39C8527CA9D58006CF292 /* ListMovies */ = {
+			isa = PBXGroup;
+			children = (
+				70E39C8627CA9D58006CF292 /* ListMoviesService.swift */,
+				70E39C8727CA9D58006CF292 /* ListMoviesResponse.swift */,
+			);
+			path = ListMovies;
+			sourceTree = "<group>";
+		};
+		F11D889546F737540BEE7641 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1CA6742376DCC7C8C092C2 /* Pods-SDKGServicesManager.debug.xcconfig */,
+				7B0F14F01A5FA730650B98C2 /* Pods-SDKGServicesManager.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		FAB3AD3E9A7558F20F0DCFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70E39C7527CA98BF006CF292 /* SDKGCommonUtils.framework */,
+				4A04C84CF154CB8E105D84D1 /* Pods_SDKGServicesManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		70E39C0627CA9510006CF292 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E39C0F27CA9510006CF292 /* SDKGServicesManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70E39C0A27CA9510006CF292 /* SDKGServicesManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70E39C1227CA9510006CF292 /* Build configuration list for PBXNativeTarget "SDKGServicesManager" */;
+			buildPhases = (
+				A8DBFA8A06638C1B973FC409 /* [CP] Check Pods Manifest.lock */,
+				70E39C0627CA9510006CF292 /* Headers */,
+				70E39C0727CA9510006CF292 /* Sources */,
+				70E39C0827CA9510006CF292 /* Frameworks */,
+				70E39C0927CA9510006CF292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKGServicesManager;
+			productName = SDKGServicesManager;
+			productReference = 70E39C0B27CA9510006CF292 /* SDKGServicesManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70E39C0227CA9510006CF292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					70E39C0A27CA9510006CF292 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 70E39C0527CA9510006CF292 /* Build configuration list for PBXProject "SDKGServicesManager" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70E39C0127CA9510006CF292;
+			productRefGroup = 70E39C0C27CA9510006CF292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70E39C0A27CA9510006CF292 /* SDKGServicesManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70E39C0927CA9510006CF292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8DBFA8A06638C1B973FC409 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDKGServicesManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E39C0727CA9510006CF292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E39C8827CA9D58006CF292 /* ListVideoMovieResponse.swift in Sources */,
+				70E39C8D27CA9D58006CF292 /* ListMoviesResponse.swift in Sources */,
+				70E39C6327CA973E006CF292 /* BaseResponse200.swift in Sources */,
+				70E39C6127CA973E006CF292 /* BaseResponse400.swift in Sources */,
+				70E39C5D27CA9731006CF292 /* ServicesFacade.swift in Sources */,
+				70E39C8A27CA9D58006CF292 /* DetailMovieService.swift in Sources */,
+				70E39C8C27CA9D58006CF292 /* ListMoviesService.swift in Sources */,
+				70E39C8927CA9D58006CF292 /* ListVideoMovieService.swift in Sources */,
+				70E39C8B27CA9D58006CF292 /* DetailMovieResponse.swift in Sources */,
+				70E39C6227CA973E006CF292 /* BaseRequestEmpty.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70E39C1027CA9510006CF292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70E39C1127CA9510006CF292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70E39C1327CA9510006CF292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1CA6742376DCC7C8C092C2 /* Pods-SDKGServicesManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K57KMHCC3S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorge.SDKGServicesManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		70E39C1427CA9510006CF292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0F14F01A5FA730650B98C2 /* Pods-SDKGServicesManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = K57KMHCC3S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jorge.SDKGServicesManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70E39C0527CA9510006CF292 /* Build configuration list for PBXProject "SDKGServicesManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E39C1027CA9510006CF292 /* Debug */,
+				70E39C1127CA9510006CF292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70E39C1227CA9510006CF292 /* Build configuration list for PBXNativeTarget "SDKGServicesManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70E39C1327CA9510006CF292 /* Debug */,
+				70E39C1427CA9510006CF292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70E39C0227CA9510006CF292 /* Project object */;
+}
