@@ -11,7 +11,6 @@ public enum FilterFacadeMovie: Int{
     case Upcoming
     case OnTheAir
     case NowPlaying
-    case Lasted
     case AiringToday
     
     public func normativeName()->String{
@@ -26,8 +25,6 @@ public enum FilterFacadeMovie: Int{
             return "En emisión"
         case .NowPlaying:
             return "En cartelera"
-        case .Lasted:
-            return "Mas reciente"
         case .AiringToday:
             return "Transmitiendo Hoy"
         }
@@ -45,8 +42,6 @@ public enum FilterFacadeMovie: Int{
             return "on_the_air"
         case .NowPlaying:
             return "now_playing"
-        case .Lasted:
-            return "latest"
         case .AiringToday:
             return "airing_today"
         }
@@ -65,8 +60,6 @@ public enum FilterFacadeMovie: Int{
         case 4:
             return .NowPlaying
         case 5:
-            return .Lasted
-        case 6:
             return .OnTheAir
         default:
             return .AiringToday

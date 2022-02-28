@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		705AB57927CD3251009B058C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705AB57827CD3251009B058C /* SplashScreen.swift */; };
 		70B91BA227CB2E03009909F2 /* RetoMovies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70B91BA027CB2E03009909F2 /* RetoMovies.xcdatamodeld */; };
 		70B91BA427CB2E1A009909F2 /* DatabaseSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B91BA327CB2E1A009909F2 /* DatabaseSingleton.swift */; };
 		70B91BA727CB2F57009909F2 /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B91BA627CB2F57009909F2 /* MovieEntity.swift */; };
@@ -72,6 +73,7 @@
 
 /* Begin PBXFileReference section */
 		2BF4958CF9ED2F503169DF92 /* Pods-RetoMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetoMovies.debug.xcconfig"; path = "Target Support Files/Pods-RetoMovies/Pods-RetoMovies.debug.xcconfig"; sourceTree = "<group>"; };
+		705AB57827CD3251009B058C /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		70B91BA127CB2E03009909F2 /* RetoMovies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetoMovies.xcdatamodel; sourceTree = "<group>"; };
 		70B91BA327CB2E1A009909F2 /* DatabaseSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseSingleton.swift; sourceTree = "<group>"; };
 		70B91BA627CB2F57009909F2 /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				70E39CBB27CABC4F006CF292 /* LoginModule */,
 				70E39C9127CAAA29006CF292 /* HomeModule */,
 				70E39C9C27CAAA29006CF292 /* MovieDetailModule */,
+				705AB57827CD3251009B058C /* SplashScreen.swift */,
 				70E39BED27CA94A6006CF292 /* AppDelegate.swift */,
 				70E39BF127CA94A6006CF292 /* ViewController.swift */,
 				70E39BF327CA94A6006CF292 /* Main.storyboard */,
@@ -429,6 +432,7 @@
 				70E39CAF27CAAA29006CF292 /* ViperMovieDetailView.swift in Sources */,
 				70E39CA627CAAA29006CF292 /* ViperHomeMoviesRouter.swift in Sources */,
 				70E39CEC27CB1CB0006CF292 /* ViperProfileMain.swift in Sources */,
+				705AB57927CD3251009B058C /* SplashScreen.swift in Sources */,
 				70E39CA927CAAA29006CF292 /* ViperHomeMoviesInteractor.swift in Sources */,
 				70B91BA427CB2E1A009909F2 /* DatabaseSingleton.swift in Sources */,
 				70E39CB027CAAA29006CF292 /* ViperMovieDetailRouter.swift in Sources */,

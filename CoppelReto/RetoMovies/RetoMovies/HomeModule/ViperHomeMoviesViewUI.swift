@@ -127,8 +127,8 @@ internal class ViperHomeMoviesViewUI: UIView {
         self.delegate = delegate
         self.module = module
         arrayOptionMovies = self.module == .Movie ?
-            [.Lasted, .NowPlaying, .Popular, .TopRated, .Upcoming] :
-            [.Lasted, .AiringToday, .OnTheAir, .Popular, .TopRated]
+            [.Popular, .TopRated, .NowPlaying, .Upcoming] :
+            [.Popular, .TopRated, .AiringToday, .OnTheAir,]
         setupUIElements()
         setupConstraints()
     }

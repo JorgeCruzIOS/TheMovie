@@ -25,15 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navigation = UINavigationController()
         navigation.isNavigationBarHidden = true
         Auth.auth().languageCode = "es"
-        if Auth.auth().currentUser != nil {
-            let rootHome = TabHomeMain.createModule()
-            initRootViewController(rootHome, navigation: navigation)
-            setRootViewController(navigation, animated: true)
-        } else {
-            let rootHome = ViperLoginMain.createModule()
-            initRootViewController(rootHome, navigation: navigation)
-            setRootViewController(navigation, animated: true)
-        }
+        initRootViewController(SplashScreen(), navigation: navigation)
+        setRootViewController(navigation, animated: true)
         
         return true
     }
